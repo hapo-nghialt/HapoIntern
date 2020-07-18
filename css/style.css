@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "UTM";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/UTM\ BryantLG.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Open Sans";
+  width: 1440px;
+}
