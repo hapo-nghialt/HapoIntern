@@ -39,6 +39,7 @@ body {
 }
 
 .hapo-header li {
+  /* margin: 10px; */
   display: inline;
 }
 
