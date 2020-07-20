@@ -43,11 +43,8 @@ body {
 }
 
 .hapo-header a {
-  font-family: "Open Sans", sans-serif;
+  font:bold 15px/19px;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
-  line-height: 19px;
   padding: 7px 15px 8px 20px;
   text-decoration: none;
   color: #505353;
@@ -79,9 +76,7 @@ body {
 }
 
 .text-footer p {
-  font-size: 20px;
-  font-family: "UTM";
-  line-height: 25px;
+  font: 20px/25px "UTM";
   letter-spacing: -0.05em;
   color: #ffffff;
   margin: 0 0 0 66px;
@@ -97,9 +92,7 @@ body {
 }
 
 .menu-footer a {
-  font-family: "UTM";
-  font-weight: bold;
-  font-size: 20px;
+  font: bold 20px "UTM";
   text-decoration: none;
   color: #ffffff;
 }
@@ -126,9 +119,8 @@ body {
 }
 
 .copyright {
-  font-family: "UTM";
   width: 100%;
-  font-size: 15px;
+  font: 15px "UTM";
   letter-spacing: -0.05em;
   color: #ffffff;
   display: flex;
