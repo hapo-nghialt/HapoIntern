@@ -48,7 +48,7 @@ body {
   color: #505353;
 }
 
-.hapo-header li :hover {
+.hapo-header a:hover {
   background-color: #b2d235;
   border-radius: 17px;
   color: #ffffff;
