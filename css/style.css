@@ -150,9 +150,9 @@ body {
   color: #b2d235;
 }
 
-.HTML,
-.Laravel,
-.PHP {
+.html,
+.laravel,
+.php {
   display: flex;
   flex-direction: column;
   margin: 50px 15px;
@@ -162,15 +162,15 @@ body {
   border-radius: 15px;
 }
 
-.HTML {
+.html {
   background: #3f6185;
 }
 
-.Laravel {
+.laravel {
   background: #dc594c;
 }
 
-.PHP {
+.php {
   background: #556598;
 }
 
