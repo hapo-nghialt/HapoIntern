@@ -15,7 +15,7 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Open Sans";
-  width: 1440px;
+  width: 100%;
 }
 
 .hapo-header {
@@ -26,15 +26,13 @@ body {
 }
 
 .hapo-header img {
-  width: 340.16px;
   height: 70px;
+  width: auto;
   padding-left: 60px;
 }
 
 .hapo-header ul {
   list-style: none;
-  display: flex;
-  flex-direction: row;
   margin-left: 150px;
 }
 
@@ -71,8 +69,8 @@ body {
 }
 
 .text-footer img {
-  width: 291.6px;
   height: 60px;
+  width: auto;
 }
 
 .text-footer p {
