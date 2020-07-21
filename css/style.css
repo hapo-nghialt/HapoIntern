@@ -15,5 +15,365 @@ body {
   margin: 0 auto;
   padding: 0;
   font-family: "Open Sans";
-  width: 1440px;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hapo-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+
+.hapo-header img {
+  height: 70px;
+  width: auto;
+  padding-left: 60px;
+}
+
+.hapo-header ul {
+  list-style: none;
+  margin-left: 150px;
+}
+
+.hapo-header li {
+  display: inline;
+}
+
+.hapo-header a {
+  font: bold 15px/19px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  text-decoration: none;
+  color: #505353;
+}
+
+.hapo-header a:hover {
+  background-color: #b2d235;
+  border-radius: 17px;
+  color: #ffffff;
+}
+
+.banner {
+  background-image: url(../images/HapoLearnBanner.png);
+  background-size: cover;
+  width: auto;
+  height: 655px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slogan-banner,
+.banner p,
+.button-banner {
+  margin-left: 60px;
+}
+
+.slogan-banner {
+  font-size: 50px;
+  font-family: "UTM";
+  letter-spacing: -0.05em;
+  color: #11114e;
+}
+
+.banner p {
+  font: 20px/25px "UTM";
+  letter-spacing: -0.05em;
+}
+
+.button-banner,
+.button-courses {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: #b2d235;
+  align-items: center;
+  cursor: pointer;
+  border: 0;
+  outline: none;
+}
+
+.button-banner {
+  width: 377px;
+  height: 70px;
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+
+.text-banner {
+  font: bold 30px/37px "UTM";
+  line-height: 13px;
+  color: #ffffff;
+}
+
+.main-courses,
+.other-courses {
+  width: 100%;
+}
+
+.main-courses img,
+.other-courses img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.main-courses-content {
+  width: 100%;
+  height: 50%;
+}
+
+.main-courses-content,
+.other-courses-content {
+  background: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-courses-content p,
+.other-courses-content p {
+  font: bold 14px/20px "UTM";
+  width: 80%;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+.main-courses-content b,
+.other-courses-content b {
+  margin: 0 auto;
+  font: bold 30px/37px "UTM";
+  color: #b2d235;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.main-courses-detail {
+  width: 370px;
+  height: 470px;
+}
+
+.html {
+  background: #3f6185;
+}
+
+.laravel {
+  background: #dc594c;
+}
+
+.php {
+  background: #556598;
+}
+
+.button-courses {
+  width: 200px;
+  height: 42px;
+  box-shadow: inset 0 1.5px 2px #6F8710;
+  border-radius: 22px;
+}
+
+.hapo-title {
+  font: bold 80px/98px "UTM";
+  letter-spacing: -0.02em;
+  width: 100%;
+  margin: 10px 0;
+  text-align: center;
+  color: #11114E;
+}
+
+.underline {
+  border-bottom: 6px solid #B2D235;
+  border-radius: 3px;
+  padding-bottom: 10px;
+}
+
+.other-courses-detail {
+  width: 370px;
+  height: 400px;
+}
+
+.other-courses-content {
+  width: 100%;
+  height: 50%;
+}
+
+.text-courses {
+  font: bold 18px "UTM";
+  color: #FFFFFF;
+}
+
+.css {
+  background: #24ABE2;
+}
+
+.ruby {
+  background: #E14E40;
+}
+
+.java {
+  background: #1B75BB;
+}
+
+.text-allcourses {
+  width: 100%;
+  text-align: center;
+}
+
+.text-allcourses > h1 > a {
+  text-decoration: none;
+  font: bold 40px/49px "UTM";
+  letter-spacing: -0.02em;
+  color: #90AB26;
+}
+
+.whyhapo {
+  background-image: url(../images/coverWhyHapoLearn.jpg);
+  width: 100%;
+  height: 740px;
+  justify-content: center;
+}
+
+.whyhapo-left {
+  margin-top: -10%;
+}
+
+.whyhapo-left > img {
+  height: 478px;
+  width: auto;
+  transform: rotate(17.12deg);
+  margin-top: -5%;
+  margin-left: -33%;
+}
+
+.whyhapo-left > p {
+  font: bold 70px/86px "UTM";
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  margin: 0;
+}
+
+.whyhapo-left ul {
+  list-style: none;
+  font: 20px/25px "UTM";
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  padding: 0;
+}
+
+.whyhapo-left li {
+  display: flex;
+  align-items: center;
+}
+
+.whyhapo-left > ul > li > img {
+  height: 35px;
+  width: auto;
+  margin: 10px;
+}
+
+.whyhapo-right img {
+  height: 544px;
+  width: auto;
+}
+
+.hapo-footer {
+  background: #505353;
+  height: 308px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+
+.text-footer {
+  padding-top: 46px;
+  padding-left: 50px;
+}
+
+.text-footer img {
+  height: 60px;
+  width: auto;
+}
+
+.text-footer p {
+  font: 20px/25px "UTM";
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  margin: 0 0 0 66px;
+}
+
+.menu-footer ul {
+  list-style: none;
+  margin-top: auto;
+}
+
+.menu-footer li {
+  padding: 10px;
+}
+
+.menu-footer a {
+  font: bold 23px "UTM";
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.contact-footer {
+  align-self: center;
+}
+
+.contact-footer ul {
+  list-style: none;
+  display: flex;
+  margin-right: 206px;
+}
+
+.contact-footer li {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.copyright {
+  width: 100%;
+  font: 15px "UTM";
+  letter-spacing: -0.05em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #454545;
+  height: 38px;
+}
+
+.space50 {
+  height: 50px;
+  width: 100%;
+}
+
+.space100 {
+  height: 100px;
+  width: 100%;
 }
