@@ -82,7 +82,8 @@ body {
   letter-spacing: -0.05em;
 }
 
-.button-banner {
+.button-banner,
+.button-maincourses {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -91,6 +92,9 @@ body {
   cursor: pointer;
   border: 0;
   outline: none;
+}
+
+.button-banner {
   width: 377px;
   height: 70px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -101,6 +105,83 @@ body {
   font: bold 30px/37px "UTM";
   line-height: 13px;
   color: #ffffff;
+}
+
+.main-courses {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-courses img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
+}
+
+.main-courses-content {
+  width: 100%;
+  height: 50%;
+}
+
+.main-courses-content {
+  background: #ffffff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  align-self: flex-end;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.main-courses-content p {
+  font: bold 14px/20px "UTM";
+  width: 80%;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+.main-courses-content h1 {
+  margin: 0 auto;
+  font: bold 30px/37px "UTM";
+  color: #b2d235;
+}
+
+.courses {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 15px;
+  width: 370px;
+  height: 470px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.html {
+  background: #3f6185;
+}
+
+.laravel {
+  background: #dc594c;
+}
+
+.php {
+  background: #556598;
+}
+
+.button-maincourses {
+  width: 200px;
+  height: 42px;
+  box-shadow: inset 0 1.5px 2px #6F8710;
+  border-radius: 22px;
+}
+
+.text-maincourses {
+  font: bold 18px "UTM";
+  color: #FFFFFF;
 }
 
 .hapo-footer {
