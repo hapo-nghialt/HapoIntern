@@ -148,8 +148,8 @@ body {
   letter-spacing: -0.05em;
 }
 
-.main-courses-content h1,
-.other-courses-content h1 {
+.main-courses-content b,
+.other-courses-content b {
   margin: 0 auto;
   font: bold 30px/37px "UTM";
   color: #b2d235;
