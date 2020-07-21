@@ -237,7 +237,7 @@ body {
   text-align: center;
 }
 
-.text-allcourses > h1 > a {
+.text-allcourses>h1>a {
   text-decoration: none;
   font: bold 40px/49px "UTM";
   letter-spacing: -0.02em;
@@ -255,7 +255,7 @@ body {
   margin-top: -10%;
 }
 
-.whyhapo-left > img {
+.whyhapo-left>img {
   height: 478px;
   width: auto;
   transform: rotate(17.12deg);
@@ -263,7 +263,7 @@ body {
   margin-left: -33%;
 }
 
-.whyhapo-left > p {
+.whyhapo-left>p {
   font: bold 70px/86px "UTM";
   letter-spacing: -0.02em;
   color: #ffffff;
@@ -283,7 +283,7 @@ body {
   align-items: center;
 }
 
-.whyhapo-left > ul > li > img {
+.whyhapo-left>ul>li>img {
   height: 35px;
   width: auto;
   margin: 10px;
@@ -369,11 +369,11 @@ body {
 }
 
 .space50 {
-	height: 50px;
-	width: 100%;
+  height: 50px;
+  width: 100%;
 }
 
 .space100 {
-	height: 100px;
-	width: 100%;
+  height: 100px;
+  width: 100%;
 }
