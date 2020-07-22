@@ -2,14 +2,7 @@
   font-family: "UTM";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/UTMBryantLG.ttf");
-}
-
-@font-face {
-  font-family: "UTM_B";
-  font-style: normal;
-  font-weight: bold;
-  src: url("../fonts/UTMBryantLG_B.ttf");
+  src: url("../fonts/UTM\ BryantLG.ttf");
 }
 
 @font-face {
@@ -35,20 +28,21 @@ body {
 }
 
 .hapo-header {
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 150px;
-  justify-content: space-between;
 }
 
 .hapo-header img {
   height: 70px;
   width: auto;
-  margin-left: 60px;
+  padding-left: 60px;
 }
 
 .hapo-header ul {
   list-style: none;
-  margin-right: 60px;
+  margin-left: 150px;
 }
 
 .hapo-header li {
@@ -79,29 +73,20 @@ body {
   flex-direction: column;
 }
 
-.slogan-banner > p {
-  font-size: 50px;
-  font-family: "UTM";
-  letter-spacing: -0.05em;
-  color: #11114E;
-  margin: 0;
-}
-
-.slogan-banner span {
-  font: bold 50px "UTM_B";
-  text-shadow: 1px 1px 1px #11114e;
-}
-
-.slogan-banner img {
-  vertical-align: middle;
-}
-
+.slogan-banner,
 .banner p,
 .button-banner {
   margin-left: 60px;
 }
 
-.banner > p {
+.slogan-banner {
+  font-size: 50px;
+  font-family: "UTM";
+  letter-spacing: -0.05em;
+  color: #11114E;
+}
+
+.banner p {
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
 }
@@ -130,7 +115,6 @@ body {
   font: bold 30px/37px "UTM";
   line-height: 13px;
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 .main-courses,
@@ -175,7 +159,6 @@ body {
   margin: 0 auto;
   font: bold 30px/37px "UTM";
   color: #B2D235;
-  text-shadow: 1px 1px 1px #B2D235;
 }
 
 .courses {
@@ -217,7 +200,6 @@ body {
   margin: 10px 0;
   text-align: center;
   color: #11114E;
-  text-shadow: 1px 1px 1px #11114E;
 }
 
 .underline {
@@ -239,7 +221,6 @@ body {
 .text-courses {
   font: bold 18px "UTM";
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 .css {
@@ -261,10 +242,9 @@ body {
 
 .text-allcourses > h1 > a {
   text-decoration: none;
-  font: bold 40px/49px "UTM_B";
+  font: bold 40px/49px "UTM";
   letter-spacing: -0.02em;
   color: #90AB26;
-  text-shadow: 1px 1px 1px #90AB26;
 }
 
 .whyhapo {
@@ -291,7 +271,6 @@ body {
   letter-spacing: -0.02em;
   color: #FFFFFF;
   margin: 0;
-  text-shadow: 1px 1px 1px #FFFFFF;
 }
 
 .whyhapo-left ul {
@@ -451,7 +430,6 @@ body {
   font: bold 60px/74px "UTM";
   letter-spacing: -0.02em;
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px #FFFFFF;
   margin: 20px;
 }
 
@@ -467,7 +445,6 @@ body {
   letter-spacing: -0.05em;
   color: #90AB26;
   margin: 0;
-  text-shadow: 1px 1px 1px #90AB26;
 }
 
 .statistic {
@@ -587,25 +564,22 @@ body {
   margin: 0;
 }
 
-.login > a > p:hover {
+.login >a > p:hover {
   background-color: #44BEC7;
 }
 
 .hapo-footer {
   background: #505353;
   height: 308px;
-}
-
-.footer-left,
-.footer-right {
-  width: 50%;
-  height: 100%;
+  display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
-.text-footer,
-.contact-footer {
-  width: 60%;
+.text-footer {
+  padding-top: 46px;
+  padding-left: 50px;
 }
 
 .text-footer img {
@@ -613,20 +587,11 @@ body {
   width: auto;
 }
 
-.text-footer {
-  margin-top: -15%;
-  margin-left: 20%;
-}
-
 .text-footer p {
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
   color: #FFFFFF;
-  margin: 0 66px;
-}
-
-.footer-right > .menu-footer {
-  margin-top: -6%;
+  margin: 0 0 0 66px;
 }
 
 .menu-footer ul {
@@ -654,7 +619,7 @@ body {
   margin-right: 206px;
 }
 
-.contact-footer a {
+.contact-footer li {
   display: flex;
   width: 50px;
   height: 50px;
