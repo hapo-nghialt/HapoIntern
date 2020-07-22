@@ -98,7 +98,7 @@ body {
 
 .slogan-banner span {
   font: bold 50px "UTM_B";
-  text-shadow: 1px 1px 1px #11114e;
+  -webkit-text-stroke-width: 2px;
 }
 
 .slogan-banner img {
@@ -139,7 +139,7 @@ body {
   font: bold 30px/37px "UTM";
   line-height: 13px;
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px #FFFFFF;
+  -webkit-text-stroke-width: 1px;
 }
 
 .main-courses,
@@ -184,7 +184,7 @@ body {
   margin: 0 auto;
   font: bold 30px/37px "UTM";
   color: #B2D235;
-  text-shadow: 1px 1px 1px #B2D235;
+  -webkit-text-stroke-width: 1px;
 }
 
 .courses {
@@ -226,7 +226,7 @@ body {
   margin: 10px 0;
   text-align: center;
   color: #11114E;
-  text-shadow: 1px 1px 1px #11114E;
+  -webkit-text-stroke-width: 3px;
 }
 
 .underline {
@@ -248,7 +248,7 @@ body {
 .text-courses {
   font: bold 18px "UTM";
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px #FFFFFF;
+  -webkit-text-stroke-width: 1px;
 }
 
 .css {
@@ -273,7 +273,7 @@ body {
   font: bold 40px/49px "UTM_B";
   letter-spacing: -0.02em;
   color: #90AB26;
-  text-shadow: 1px 1px 1px #90AB26;
+  -webkit-text-stroke-width: 2px;
 }
 
 .whyhapo {
@@ -300,7 +300,7 @@ body {
   letter-spacing: -0.02em;
   color: #FFFFFF;
   margin: 0;
-  text-shadow: 1px 1px 1px #FFFFFF;
+  -webkit-text-stroke-width: 2px;
 }
 
 .whyhapo-left ul {
@@ -432,7 +432,7 @@ body {
 .user-information b {
   font: bold 20px/25px "UTM";
   color: #11114E;
-  text-shadow: 1px 1px 1px #11114E;
+  -webkit-text-stroke-width: 1px;
 }
 
 .user-information p {
@@ -453,7 +453,7 @@ body {
   font: bold 60px/74px "UTM";
   letter-spacing: -0.02em;
   color: #FFFFFF;
-  text-shadow: 1px 1px 1px #FFFFFF;
+  -webkit-text-stroke-width: 2px;
   margin: 20px;
 }
 
@@ -469,7 +469,7 @@ body {
   letter-spacing: -0.05em;
   color: #90AB26;
   margin: 0;
-  text-shadow: 1px 1px 1px #90AB26;
+  -webkit-text-stroke-width: 1px;
 }
 
 .statistic {
@@ -507,8 +507,9 @@ body {
   right: 40px;
   width: 360px;
   height: 190px;
-  background: url('../images/background-chat.png') no-repeat;
-  background-size: cover;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  border-radius: 23px;
 }
 
 .btn-cancel {
