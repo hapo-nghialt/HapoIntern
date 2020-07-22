@@ -524,7 +524,8 @@ body {
 }
 
 .btn-cancel:hover {
-  background-color: #505353;
+  background-color: #000000;
+  color: #C4C4C4;
 }
 
 .chat-content > p,
