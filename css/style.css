@@ -2,7 +2,14 @@
   font-family: "UTM";
   font-style: normal;
   font-weight: normal;
-  src: url("../fonts/UTM\ BryantLG.ttf");
+  src: url("../fonts/UTMBryantLG.ttf");
+}
+
+@font-face {
+  font-family: "UTM_B";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/UTMBryantLG_B.ttf");
 }
 
 @font-face {
@@ -28,21 +35,20 @@ body {
 }
 
 .hapo-header {
-  display: flex;
-  align-items: center;
   width: 100%;
   height: 150px;
+  justify-content: space-between;
 }
 
 .hapo-header img {
   height: 70px;
   width: auto;
-  padding-left: 60px;
+  margin-left: 60px;
 }
 
 .hapo-header ul {
   list-style: none;
-  margin-left: 150px;
+  margin-right: 60px;
 }
 
 .hapo-header li {
@@ -73,20 +79,28 @@ body {
   flex-direction: column;
 }
 
-.slogan-banner,
+.slogan-banner > p {
+  font-size: 50px;
+  font-family: "UTM";
+  letter-spacing: -0.05em;
+  color: #11114E;
+  margin: 0;
+}
+
+.slogan-banner span {
+  font: bold 50px "UTM_B";
+}
+
+.slogan-banner img {
+  vertical-align: middle;
+}
+
 .banner p,
 .button-banner {
   margin-left: 60px;
 }
 
-.slogan-banner {
-  font-size: 50px;
-  font-family: "UTM";
-  letter-spacing: -0.05em;
-  color: #11114E;
-}
-
-.banner p {
+.banner > p {
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
 }
@@ -242,7 +256,7 @@ body {
 
 .text-allcourses > h1 > a {
   text-decoration: none;
-  font: bold 40px/49px "UTM";
+  font: bold 40px/49px "UTM_B";
   letter-spacing: -0.02em;
   color: #90AB26;
 }
@@ -564,22 +578,25 @@ body {
   margin: 0;
 }
 
-.login >a > p:hover {
+.login > a > p:hover {
   background-color: #44BEC7;
 }
 
 .hapo-footer {
   background: #505353;
   height: 308px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: baseline;
 }
 
-.text-footer {
-  padding-top: 46px;
-  padding-left: 50px;
+.footer-left,
+.footer-right {
+  width: 50%;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.text-footer,
+.contact-footer {
+  width: 60%;
 }
 
 .text-footer img {
@@ -587,11 +604,20 @@ body {
   width: auto;
 }
 
+.text-footer {
+  margin-top: -15%;
+  margin-left: 20%;
+}
+
 .text-footer p {
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
   color: #FFFFFF;
-  margin: 0 0 0 66px;
+  margin: 0 66px;
+}
+
+.footer-right > .menu-footer {
+  margin-top: -6%;
 }
 
 .menu-footer ul {
@@ -619,7 +645,7 @@ body {
   margin-right: 206px;
 }
 
-.contact-footer li {
+.contact-footer a {
   display: flex;
   width: 50px;
   height: 50px;
