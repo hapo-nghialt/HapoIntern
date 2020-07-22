@@ -16,6 +16,8 @@ body {
   padding: 0;
   font-family: "Open Sans";
   width: 100%;
+  background: url(../images/background-header.png) no-repeat;
+  background-size: 100%;
 }
 
 .flex-container {
