@@ -23,3 +23,9 @@ function showSlides(n) {
   }
   slides[slideIndex - 1].style.display = "flex";
 }
+
+$(document).ready(() => {
+  $(".btn-chat").click(() => {
+    $("div.chat-content").fadeToggle();
+  });
+});
