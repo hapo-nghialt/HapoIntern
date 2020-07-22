@@ -15,7 +15,15 @@
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
+  font-weight: bold;
   src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/OpenSans-Regular.ttf");
 }
 
 body {
@@ -53,6 +61,7 @@ body {
 
 .hapo-header li {
   display: inline;
+  font-weight: bold;
 }
 
 .hapo-header a {
