@@ -433,6 +433,7 @@ body {
 .user-information b {
   font: bold 20px/25px "UTM";
   color: #11114E;
+  text-shadow: 1px 1px 1px #11114E;
 }
 
 .user-information p {
