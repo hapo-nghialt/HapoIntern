@@ -56,9 +56,9 @@ body {
 }
 
 .hapo-header a:hover {
-  background-color: #b2d235;
+  background-color: #B2D235;
   border-radius: 17px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .banner {
@@ -81,7 +81,7 @@ body {
   font-size: 50px;
   font-family: "UTM";
   letter-spacing: -0.05em;
-  color: #11114e;
+  color: #11114E;
 }
 
 .banner p {
@@ -94,14 +94,15 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background: #b2d235;
+  background: #B2D235;
   align-items: center;
   cursor: pointer;
   border: 0;
   outline: none;
 }
 
-.button-banner {
+.button-banner,
+.btn-become-member {
   width: 377px;
   height: 70px;
   box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -111,7 +112,7 @@ body {
 .text-banner {
   font: bold 30px/37px "UTM";
   line-height: 13px;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .main-courses,
@@ -133,7 +134,7 @@ body {
 
 .main-courses-content,
 .other-courses-content {
-  background: #ffffff;
+  background: #FFFFFF;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   align-self: flex-end;
@@ -155,7 +156,7 @@ body {
 .other-courses-content b {
   margin: 0 auto;
   font: bold 30px/37px "UTM";
-  color: #b2d235;
+  color: #B2D235;
 }
 
 .courses {
@@ -172,11 +173,11 @@ body {
 }
 
 .html {
-  background: #3f6185;
+  background: #3F6185;
 }
 
 .laravel {
-  background: #dc594c;
+  background: #DC594C;
 }
 
 .php {
@@ -186,7 +187,7 @@ body {
 .button-courses {
   width: 200px;
   height: 42px;
-  box-shadow: inset 0 1.5px 2px #6F8710;
+  box-shadow: inset 0 1.5px 2px #6F7810;
   border-radius: 22px;
 }
 
@@ -266,7 +267,7 @@ body {
 .whyhapo-left > p {
   font: bold 70px/86px "UTM";
   letter-spacing: -0.02em;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0;
 }
 
@@ -274,7 +275,7 @@ body {
   list-style: none;
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
-  color: #ffffff;
+  color: #FFFFFF;
   padding: 0;
 }
 
@@ -361,13 +362,13 @@ body {
 }
 
 .feedback-content > a {
-  border: 0.5px solid #c4c4c4;
+  border: 0.5px solid #C4C4C4;
   border-radius: 50%;
   cursor: pointer;
   width: 30px;
   height: 30px;
   text-align: center;
-  background: #ffffff;
+  background: #FFFFFF;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -401,7 +402,7 @@ body {
 
 .fa-star,
 .fa-star-half-alt {
-  color: #f2c54f
+  color: #F2C54F;
 }
 
 .user-information b {
@@ -413,6 +414,55 @@ body {
   font: bold 16px/20px "UTM";
   color: #505353;
   margin: 0;
+}
+
+.become-member {
+  background-image: url(../images/background-green.png);
+  width: 100%;
+  height: 500px;
+  flex-direction: column;
+}
+
+.become-member > p {
+  text-align: center;
+  font: bold 60px/74px "UTM";
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+  margin: 20px;
+}
+
+.btn-become-member {
+  border: 0;
+  outline: none;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+
+.btn-become-member > p {
+  font: bold 30px/37px "UTM";
+  letter-spacing: -0.05em;
+  color: #90AB26;
+  margin: 0;
+}
+
+.statistic {
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.statistic-content p,
+.statistic-content b {
+  font: bold 60px/74px "UTM";
+  letter-spacing: -0.05em;
+}
+
+.statistic-content p {
+  color: #505353;
+  margin: 30px;
+}
+
+.statistic-content b {
+  color: #B2D235;
 }
 
 .hapo-footer {
@@ -437,7 +487,7 @@ body {
 .text-footer p {
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
-  color: #ffffff;
+  color: #FFFFFF;
   margin: 0 0 0 66px;
 }
 
@@ -453,7 +503,7 @@ body {
 .menu-footer a {
   font: bold 23px "UTM";
   text-decoration: none;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .contact-footer {
@@ -470,7 +520,7 @@ body {
   display: flex;
   width: 50px;
   height: 50px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -481,7 +531,7 @@ body {
   width: 100%;
   font: 15px "UTM";
   letter-spacing: -0.05em;
-  color: #ffffff;
+  color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -499,6 +549,11 @@ body {
   width: 100%;
 }
 
+.space200 {
+  height: 200px;
+  width: 100%;
+}
+
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1s;
@@ -508,18 +563,18 @@ body {
 
 @-webkit-keyframes fade {
   from {
-    opacity: .3
+    opacity: 0.3;
   }
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 @keyframes fade {
   from {
-    opacity: .3
+    opacity: 0.3;
   }
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
