@@ -502,16 +502,17 @@ body {
   background-color: #505353;
 }
 
-.chat-content h1,
+.chat-content > p,
 .login p {
   font: normal 12px/16px "Open Sans";
   letter-spacing: -0.02em;
   display: inline-flex;
 }
 
-.chat-content h1 {
+.chat-content > p {
   color: #7F7F7F;
-  margin: 13px 70px;
+  margin: 10px 70px;
+  padding-top: 10px;
 }
 
 .hapo-chatbot {
