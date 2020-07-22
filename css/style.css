@@ -345,33 +345,16 @@ body {
   background-size: 570px 163px;
   width: 570px;
   height: 50%;
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 5px;
 }
 
 .comment-content {
-  overflow-y: scroll;
   height: 90px;
-  direction: rtl;
-  display: flex;
-  align-items: center;
-  margin: 0;
-}
-
-.comment-content::-webkit-scrollbar {
-  width: 5px;
-}
-
-.comment-content::-webkit-scrollbar-thumb {
-  border-radius: 50px;
-  background-color: #000000;
-}
-
-.comment-content::-webkit-scrollbar-track {
-  border-radius: 50px;
-  background-color: #D9DADC;
+  margin-right: -3%;
 }
 
 .comment-content p {
@@ -381,7 +364,6 @@ body {
   color: #000000;
   margin: 0.6em;
   align-self: center;
-  direction: ltr;
 }
 
 .feedback-content > a {
@@ -399,13 +381,19 @@ body {
 }
 
 .slideshow-left {
-  margin-left: -4%;
-  margin-right: 1%;
+  margin-left: -6%;
+  margin-right: 3%;
 }
 
 .slideshow-right {
-  margin-left: 1%;
-  margin-right: -4%;
+  margin-left: 3%;
+  margin-right: -6%;
+}
+
+.quote {
+  width: 5px;
+  height: 100px;
+  background-color: #D9DADC;
 }
 
 .feedback-content > a:hover {
