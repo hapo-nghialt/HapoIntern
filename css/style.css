@@ -511,6 +511,10 @@ body {
   border-radius: 23px;
 }
 
+.btn-chat {
+  cursor: pointer;
+}
+
 .btn-cancel {
   border-radius: 50%;
   float: right;
