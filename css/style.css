@@ -296,24 +296,29 @@ body {
   background-image: url(../images/coverWhyHapoLearn.jpg);
   width: 100%;
   height: 740px;
-  justify-content: space-between;
+}
+
+.whyhapo-left,
+.whyhapo-right {
+  width: 50%;
 }
 
 .whyhapo-left {
   margin-top: -9%;
-  margin-left: 3%;
   flex-direction: column;
 }
 
 .whyhapo-left > img {
   height: 478px;
   width: auto;
+  align-self: flex-start;
   transform: rotate(17.12deg);
-  margin-left: -70%;
+  margin-left: -10%;
 }
 
 .text-whyhapo {
-  margin-left: 100px;
+  align-self: flex-end;
+  margin-right: 100px;
 }
 
 .text-whyhapo > p {
@@ -346,7 +351,6 @@ body {
 .whyhapo-right > img {
   height: 544px;
   width: auto;
-  margin-right: 30%;
 }
 
 .comment {
@@ -367,7 +371,7 @@ body {
 .feedback-detail {
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 30%;
   height: 100%;
   margin: 0;
   align-items: center;
