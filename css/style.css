@@ -395,7 +395,7 @@ body {
   border: solid transparent;
   height: 0;
   width: 0;
-	position: absolute;
+  position: absolute;
   pointer-events: none;
 }
 
