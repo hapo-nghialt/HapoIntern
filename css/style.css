@@ -31,8 +31,6 @@ body {
   padding: 0;
   font-family: "Open Sans";
   width: 100%;
-  background: url(../images/background-header.png) no-repeat;
-  background-size: 100%;
 }
 
 .flex-container {
@@ -79,8 +77,9 @@ body {
 }
 
 .banner {
-  background-image: url(../images/HapoLearnBanner.png);
-  background-size: cover;
+  background: url(../images/HapoLearnBanner.png) no-repeat;
+  background-size: contain;
+  background-position: center;
   width: auto;
   height: 655px;
   display: flex;
@@ -127,6 +126,12 @@ body {
   outline: none;
 }
 
+.button-banner:hover,
+.button-courses:hover {
+  background-color: #11114E;
+  transition: 0.4s;
+}
+
 .button-banner,
 .btn-become-member {
   width: 377px;
@@ -140,6 +145,15 @@ body {
   line-height: 13px;
   color: #FFFFFF;
   -webkit-text-stroke-width: 1px;
+}
+
+.hapo-blank {
+  background-image: linear-gradient(white, #E5E5E5);
+  height: 161px;
+}
+
+.main-courses {
+  margin-top: -150px;
 }
 
 .main-courses,
@@ -276,26 +290,36 @@ body {
   -webkit-text-stroke-width: 2px;
 }
 
+.text-allcourses:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+
 .whyhapo {
   background-image: url(../images/coverWhyHapoLearn.jpg);
   width: 100%;
   height: 740px;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .whyhapo-left {
-  margin-top: -10%;
+  margin-top: -9%;
+  margin-left: 3%;
+  flex-direction: column;
 }
 
 .whyhapo-left > img {
   height: 478px;
   width: auto;
   transform: rotate(17.12deg);
-  margin-top: -5%;
-  margin-left: -33%;
+  margin-left: -70%;
 }
 
-.whyhapo-left > p {
+.text-whyhapo {
+  margin-left: 100px;
+}
+
+.text-whyhapo > p {
   font: bold 70px/86px "UTM";
   letter-spacing: -0.02em;
   color: #FFFFFF;
@@ -303,7 +327,7 @@ body {
   -webkit-text-stroke-width: 2px;
 }
 
-.whyhapo-left ul {
+.text-whyhapo ul {
   list-style: none;
   font: 20px/25px "UTM";
   letter-spacing: -0.05em;
@@ -311,25 +335,28 @@ body {
   padding: 0;
 }
 
-.whyhapo-left li {
+.text-whyhapo li {
   display: flex;
   align-items: center;
 }
 
-.whyhapo-left > ul > li > img {
+.text-whyhapo img {
   height: 35px;
   width: auto;
   margin: 10px;
 }
 
-.whyhapo-right img {
+.whyhapo-right > img {
   height: 544px;
   width: auto;
+  margin-right: 30%;
 }
 
 .comment {
   width: 100%;
   height: 320px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .feedback > p {
@@ -442,7 +469,9 @@ body {
 }
 
 .become-member {
-  background-image: url(../images/background-green.png);
+  background: url(../images/background-green.png) no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
   height: 500px;
   flex-direction: column;
@@ -462,6 +491,14 @@ body {
   outline: none;
   background: #FFFFFF;
   cursor: pointer;
+}
+
+.btn-become-member:hover {
+  background-color: #11114E;
+}
+
+.btn-become-member:hover p {
+  color: #FFFFFF;
 }
 
 .btn-become-member > p {
@@ -513,6 +550,11 @@ body {
 
 .btn-chat {
   cursor: pointer;
+}
+
+.btn-chat:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
 }
 
 .btn-cancel {
@@ -607,17 +649,17 @@ body {
 .footer-right {
   width: 50%;
   height: 100%;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .text-footer {
   width: 60%;
-  margin-right: -100px;
   margin-top: -100px;
+  margin-left: 100px;
 }
 
 .contact-footer {
-  width: 50%;
+  width: 60%;
 }
 
 .text-footer img {
@@ -651,14 +693,20 @@ body {
   color: #FFFFFF;
 }
 
+.menu-footer a:hover {
+  -webkit-text-stroke-width: 1px;
+  text-decoration: underline;
+}
+
 .contact-footer {
   align-self: center;
+  margin: 0;
 }
 
 .contact-footer ul {
   list-style: none;
   display: flex;
-  margin-right: 206px;
+  padding: 0;
 }
 
 .contact-footer a {
@@ -670,6 +718,28 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 35px;
+}
+
+.contact-footer li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact-footer li:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.5s;
+}
+
+.contact-footer li:hover span {
+  display: block;
+}
+
+.contact-detail {
+  padding-left: 15px;
+  display: none;
+  font: normal normal 20px/25px "UTM";
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
 }
 
 .copyright {
