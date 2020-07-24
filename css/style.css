@@ -150,10 +150,7 @@ body {
 .hapo-blank {
   background-image: linear-gradient(white, #E5E5E5);
   height: 161px;
-}
-
-.main-courses {
-  margin-top: -150px;
+  margin-bottom: -150px;
 }
 
 .main-courses,
