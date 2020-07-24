@@ -78,8 +78,7 @@ body {
 
 .banner {
   background: url(../images/HapoLearnBanner.png) no-repeat;
-  background-size: contain;
-  background-position: center;
+  background-size: cover;
   width: auto;
   height: 655px;
   display: flex;
