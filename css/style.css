@@ -393,21 +393,21 @@ body {
 .feedback-content:before {
   content: '';
   border: solid transparent;
-	height: 0;
-	width: 0;
+  height: 0;
+  width: 0;
 	position: absolute;
   pointer-events: none;
 }
 
 .feedback-content:after {
-	border-top-color: #FFFFFF;
+  border-top-color: #FFFFFF;
   border-width: 10px;
   margin-top: 181px;
   margin-right: 500px;
 }
 
 .feedback-content:before {
-	border-top-color: #E2E2E2;
+  border-top-color: #E2E2E2;
   border-width: 12px;
   margin-top: 186px;
   margin-right: 500px;
