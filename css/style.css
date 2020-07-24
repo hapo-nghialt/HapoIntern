@@ -31,8 +31,6 @@ body {
   padding: 0;
   font-family: "Open Sans";
   width: 100%;
-  background: url(../images/background-header.png) no-repeat;
-  background-size: 100% 966px;
 }
 
 .flex-container {
@@ -147,6 +145,15 @@ body {
   line-height: 13px;
   color: #FFFFFF;
   -webkit-text-stroke-width: 1px;
+}
+
+.hapo-blank {
+  background-image: linear-gradient(white, #E5E5E5);
+  height: 161px;
+}
+
+.main-courses {
+  margin-top: -150px;
 }
 
 .main-courses,
@@ -333,7 +340,7 @@ body {
   align-items: center;
 }
 
-.text-whyhapo > ul > li > img {
+.text-whyhapo img {
   height: 35px;
   width: auto;
   margin: 10px;
