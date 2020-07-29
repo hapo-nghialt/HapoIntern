@@ -308,17 +308,19 @@ body {
   flex-direction: column;
 }
 
-.whyhapo-left > img {
+.whyhapo > img {
   height: 478px;
-  width: auto;
   align-self: flex-start;
   transform: rotate(17.12deg);
-  margin-left: -10%;
+  position: absolute;
+  margin-top: -155px;
+  left: -85px;
 }
 
 .text-whyhapo {
   align-self: flex-end;
   margin-right: 100px;
+  margin-top: 250px;
 }
 
 .text-whyhapo > p {
