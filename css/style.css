@@ -126,8 +126,9 @@ body {
 }
 
 .button-banner:hover,
-.button-courses:hover {
-  background-color: #11114E;
+.button-courses:hover,
+.btn-become-member:hover {
+  opacity: 0.7;
   transition: 0.4s;
 }
 
@@ -348,7 +349,7 @@ body {
 }
 
 .whyhapo-right > img {
-  height: 544px;
+  height: 500px;
   width: auto;
 }
 
@@ -516,14 +517,6 @@ body {
   outline: none;
   background: #FFFFFF;
   cursor: pointer;
-}
-
-.btn-become-member:hover {
-  background-color: #11114E;
-}
-
-.btn-become-member:hover p {
-  color: #FFFFFF;
 }
 
 .btn-become-member > p {
